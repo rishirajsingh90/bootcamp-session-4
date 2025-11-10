@@ -18,6 +18,13 @@
     </header>
 
     <main>
+      <section id="intro-section">
+        <div class="intro-content">
+          <h3>🚀 Manage Your Consulting Expertise</h3>
+          <p>Browse our comprehensive capabilities catalog and register your expertise directly on each capability card. Make yourself discoverable for client engagements.</p>
+        </div>
+      </section>
+
       <section id="capabilities-container">
         <h3>Available Capabilities</h3>
         <div id="capabilities-list">
@@ -26,24 +33,7 @@
         </div>
       </section>
 
-      <section id="register-container">
-        <h3>Register Your Expertise</h3>
-        <form id="register-form">
-          <div class="form-group">
-            <label for="email">Consultant Email:</label>
-            <input type="email" id="email" required placeholder="your-email@slalom.com" />
-          </div>
-          <div class="form-group">
-            <label for="capability">Select Capability:</label>
-            <select id="capability" required>
-              <option value="">-- Select a capability --</option>
-              <!-- Capability options will be loaded here -->
-            </select>
-          </div>
-          <button type="submit">Register Expertise</button>
-        </form>
-        <div id="message" class="hidden"></div>
-      </section>
+      <div id="message" class="hidden"></div>
     </main>
 
     <footer>
